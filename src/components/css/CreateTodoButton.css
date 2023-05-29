@@ -1,0 +1,21 @@
+.create-todo-container button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  /* background-color: rgba(0, 139, 139, 0.5); */
+  background-color: #aeaca8;
+  background: linear-gradient(#082b6c, #0e9390);
+  color: white;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 300ms;
+}
+.create-todo-container button:hover {
+  transform: rotate(90deg);
+}

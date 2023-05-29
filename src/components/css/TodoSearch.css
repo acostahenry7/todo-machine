@@ -1,0 +1,17 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.search-container input {
+  padding: 10px;
+  border-radius: 20px;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 360px;
+}
+
+.search-container input:focus {
+  outline-color: #99bee2;
+}
