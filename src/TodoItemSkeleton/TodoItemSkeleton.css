@@ -1,0 +1,85 @@
+.skeleton-todo-list-item {
+  /* border: 0.5px solid rgba(255, 255, 255, 0.05); */
+  border-radius: 15px;
+  padding: 10px 10px;
+  margin: 10px 0;
+  color: white;
+  text-align: center;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  height: auto;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skeleton-todo-list-item .skeleton-todo-list-text-container {
+  width: 100%;
+  min-height: 30px;
+}
+
+.skeleton-todo-list-item .text {
+  width: 100%;
+  background-color: aliceblue;
+  word-wrap: break-word;
+}
+
+.skeleton-todo-list-item .actions {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.04);
+}
+
+.skeleton-todo-list-item .icon {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.skeleton-todo-list-item .text-complete {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.skeleton-todo-list-item .delete {
+  font-size: 20px;
+  color: grey;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.skeleton-todo-list-item .check {
+  font-size: 20px;
+  color: grey;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+/* .skeleton-todo-list-item .check:hover {
+  color: #45b524;
+} */
+
+.skeleton-todo-list-item .complete {
+  color: #45b524;
+  /* font-size: 23px; */
+  font-weight: bold;
+}
+
+.skeleton-todo-list-item {
+  background: linear-gradient(90deg, rgba(34, 93, 109, 0.4), transparent);
+  background-size: 400% 400%;
+  animation: loadingAnimation 3s ease-in-out infinite;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

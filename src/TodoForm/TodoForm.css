@@ -1,0 +1,60 @@
+.todoform-container {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  color: black;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.todoform-container label {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.todoform-container textarea {
+  margin: 20px 0 0 0;
+  width: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  background-color: #ecf1f5;
+  color: rgb(65, 65, 65);
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.todoform-container textarea:focus {
+  outline-color: rgba(12, 135, 132, 0.5);
+  outline-width: 0.5px;
+}
+
+.todoform-button-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0 0 0;
+}
+
+.todoform-button {
+  padding: 6px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.todoform-button--cancel {
+  background-color: #bf514c;
+}
+
+.todoform-button--cancel:hover {
+  background-color: #a1433e;
+}
+
+.todoform-button--create {
+  background-color: #21a3f7;
+}
+
+.todoform-button--create:hover {
+  background-color: #228fd8;
+}
